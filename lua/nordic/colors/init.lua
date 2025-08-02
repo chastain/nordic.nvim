@@ -40,7 +40,7 @@ function C.build_palette()
     if options.cursorline.theme == 'light' then
         options.cursorline.bg = C.gray2
     else
-        options.cursorline.bg = C.black0
+        options.cursorline.bg = C.black1
     end
 
     C.bg_visual = (options.transparent.bg and options.cursorline.bg)
