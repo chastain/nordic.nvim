@@ -30,7 +30,7 @@ function C.build_palette()
 
     -- Backgrounds
     --C.bg = (options.transparent.bg and C.none) or ((options.swap_backgrounds and C.black0) or C.gray0)
-    C.bg = black0
+    C.bg = C.black0
     C.bg_dark = (options.transparent.bg and C.none) or C.black0
     C.bg_sidebar = (options.transparent.bg and C.none) or C.bg
     C.bg_statusline = C.black0
