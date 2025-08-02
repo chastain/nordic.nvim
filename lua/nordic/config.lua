@@ -70,7 +70,8 @@ local defaults = {
     },
     telescope = {
         -- Available styles: `classic`, `flat`.
-        style = 'flat',
+        -- style = 'flat',
+        style = 'classic',
     },
     leap = {
         -- Dims the backdrop when using leap.
